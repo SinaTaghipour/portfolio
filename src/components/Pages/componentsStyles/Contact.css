@@ -1,0 +1,84 @@
+/* Root Contact Section */
+.contact {
+  padding: 3rem 1.5rem;
+  background: linear-gradient(to right, #f7f9fc, #f0f4f8);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Headline Typography */
+.TimesNewRoman {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.75rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 0 #ddd;
+}
+
+/* Contact Item Cards */
+.list-group-item {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 1.2rem 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.list-group-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  background-color: #fefefe;
+}
+
+/* Item Headings */
+.list-group-item h6 {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.2rem;
+}
+
+/* Email, LinkedIn, etc. text */
+.list-group-item p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 0;
+}
+
+/* Status tag (e.g. Active) */
+.list-group-item small {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Icons (SVG) */
+.list-group-item svg {
+  width: 28px;
+  height: 28px;
+  color: #4f46e5;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.list-group-item:hover svg {
+  color: #3730a3;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .TimesNewRoman {
+    font-size: 2rem;
+  }
+
+  .list-group-item {
+    padding: 1rem;
+  }
+
+  .list-group-item svg {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif JP", serif;
+}
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 100%;
+  background-color: #f4f1ec;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  color: #2f2f2f;
+  padding: 0 16px;
+}
+
+header {
+  position: relative;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Japanese_wave_pattern.svg/1024px-Japanese_wave_pattern.svg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 4px solid #ffcfcf;
+  flex: 0 0 auto;
+  color: #fff;
+  font-family: 'Noto Serif JP', serif;
+  overflow: hidden;
+}
+
+header h1 {
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0;
+  z-index: 1;
+}
+
+.navbar-mainbg {
+  background-color: #a06a3c;
+  border-bottom: 2px solid #d4af7f;
+}
+
+#navbarSupportedContent ul li a {
+  color: #fefefe;
+  font-size: 16px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+#navbarSupportedContent ul li a:hover {
+  background-color: #0d6efd;
+  color: #2f2f2f;
+}
+
+.note {
+  background: #fff;
+  border: 1px solid #0d6efd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 240px;
+  margin: 20px;
+  float: left;
+}
+
+form.create-note {
+  background: #fff;
+  border: 1px solid #0d6efd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 500px;
+  margin: 40px auto;
+  position: relative;
+}
+
+form.create-note input,
+form.create-note textarea {
+  background: transparent;
+  border: 1px solid #0d6efd;
+  padding: 8px;
+  font-size: 1.1em;
+  color: #2f2f2f;
+}
+
+form.create-note button {
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 15px;
+  bottom: -20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Noto Serif JP", serif;
+  color: #2f2f2f;
+}
+
+p {
+  color: #333;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.profile {
+  border: 2px solid #ffcfcf;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 280px;
+  height: 280px;
+}
+
+.feedback-input {
+  background-color: transparent;
+  border: 2px solid #a06a3c;
+  color: #2f2f2f;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.feedback-input:focus {
+  border-color: #d4af7f;
+  outline: none;
+}
+
+[type="submit"] {
+  background: #a06a3c;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+[type="submit"]:hover {
+  background: #d4af7f;
+}

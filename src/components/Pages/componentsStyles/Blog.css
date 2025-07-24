@@ -1,0 +1,15 @@
+.fst-italic {
+  font-style: italic;
+}
+.link-body-emphasis {
+  color: inherit;
+  text-decoration: none;
+}
+.link-body-emphasis:hover {
+  text-decoration: underline;
+}
+.bd-placeholder-img {
+  background-color: #55595c;
+  color: #eceeef;
+  display: block;
+}

@@ -1,0 +1,99 @@
+.footer {
+  padding: 40px 0;
+  background: #f8f9fa;
+  backdrop-filter: blur(6px);
+  text-align: center;
+  color: #212529;
+  border-top: 1px solid rgba(222, 226, 230, 0.7);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+  animation: fadeInUp 1s ease-in-out;
+  z-index: 100;
+}
+
+/* Social Icons */
+.social-icons,
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-icons li a {
+  font-size: 24px;
+  color: #495057;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: #0d6efd;
+  transform: translateY(-4px) scale(1.1);
+}
+
+/* Footer navigation links */
+.footer-menu li a {
+  font-weight: 500;
+  color: #343a40;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.footer-menu li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #0d6efd;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.footer-menu li a:hover::after {
+  width: 100%;
+}
+
+.footer-menu li a:hover {
+  color: #0d6efd;
+}
+
+/* Footer text */
+.footer-text {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #6c757d;
+  opacity: 0.9;
+}
+
+/* Fade in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer-menu,
+  .social-icons {
+    gap: 16px;
+    font-size: 16px;
+  }
+
+  .footer-text {
+    font-size: 13px;
+  }
+}
