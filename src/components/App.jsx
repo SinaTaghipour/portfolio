@@ -33,7 +33,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
       <Header />
       <div className="container mt-4">
         <AnimatedRoutes />
@@ -42,5 +42,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
