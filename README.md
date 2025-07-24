@@ -3,18 +3,17 @@
 Welcome to my personal portfolio built using **React.js**, **React Router**, **Framer Motion**, and **Bootstrap**. This site showcases my skills, projects, education, and contact information.
 
 ## Live Demo
-
-🔗 [View Website](https://SinaTaghipour.github.io/portfolio)
+ [View Website](https://SinaTaghipour.github.io/portfolio)
 
 ---
 
-## 📁 Features
+## Features
 
-- ✨ Smooth page transitions with Framer Motion
-- 📱 Responsive design with a custom hamburger menu
-- 📚 Blog & Education section
-- 📬 Contact page with social links
-- 🎨 Modern UI with animations and icons
+- Smooth page transitions with Framer Motion
+- Responsive design with a custom hamburger menu
+- Blog & Education section
+- Contact page with social links
+- Modern UI with animations and icons
 
 ---
 
