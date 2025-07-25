@@ -36,8 +36,8 @@ function Home() {
                 <RotatingText
                   texts={[
                     "Full-Stack Web Developer",
-                    "Chef",
                     "Gamer",
+                    "Chef",
                     "Student",
                   ]}
                   mainClassName="rotating-role"
@@ -66,8 +66,7 @@ function Home() {
               <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 <Link
                   to="/projects"
-                  className="btn btn-outline-primary btn-lg px-4 rounded-pill mx-1 btn-dark"
-                  style={{ color: "antiquewhite"}}
+                  className="btn btn-primary btn-lg px-4 rounded-pill mx-1"
                 >
                   View My Work
                 </Link>

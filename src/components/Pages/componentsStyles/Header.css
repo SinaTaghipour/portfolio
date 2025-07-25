@@ -3,6 +3,10 @@ header.header-shadow {
   position: sticky;
   top: 0;
   z-index: 1000;
+  /* height: 100px; */
+  border-bottom-width: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   background-color: #f8f9fa;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
   transition: background-color 0.4s ease, box-shadow 0.4s ease;

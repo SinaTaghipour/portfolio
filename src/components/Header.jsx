@@ -8,7 +8,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="header-shadow bg-light border-bottom mb-4">
+    <header className="header-shadow bg-light">
       <div className="container py-3 d-flex justify-content-between align-items-center">
         <Link to="/" className="fs-4 fw-bold text-dark text-decoration-none">
           My Portfolio

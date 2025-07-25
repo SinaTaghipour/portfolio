@@ -7,7 +7,7 @@
 .profile {
   border-radius: 50%;
   box-shadow: 0 10px 25px #0d6efd50;
-  max-width: 100%;
+  max-width: 100% !important;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
@@ -34,6 +34,7 @@
   line-height: 1.6;
   margin-top: 20px;
   text-align: justify !important;
+  justify-content: start !important;
 }
 
 .rotating-container {
@@ -76,8 +77,8 @@
   }
 
   .homeAbout {
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1rem !important;
+    text-align: start !important;
   }
 
   .btn {
